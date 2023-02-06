@@ -7,7 +7,7 @@ module "vpc" {
 
     azs = var.vpc_availability_zones
     public_subnets = var.vpc_public_subnets
-    private_subnets = var.vpc_app_subnet
+    private_subnets = var.vpc_app_subnets
     database_subnets = var.vpc_database_subnets
 
     # Database Subnet Groups
