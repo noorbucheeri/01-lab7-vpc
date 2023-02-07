@@ -2,7 +2,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "aws-arch"
+    organization = "firstorgNoor"
 
     workspaces {
       name = "01-lab7-vpc"
